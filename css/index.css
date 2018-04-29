@@ -1,0 +1,151 @@
+html {
+    margin:0 auto;
+}
+body {
+    max-width:1200px;
+    margin:0 auto;
+    font-family: crimson text, serif;
+    font-size: 0,875em;
+    line-height: 1,6em;
+}
+
+header nav {
+    margin: 20px 0;
+}
+header ul {
+    display:flex;
+    padding: 0;
+    list-style-type: none;
+    text-align:center;
+}
+
+header ul li {
+    flex-grow: 1;
+    min-height: 25px;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    font-family: crimson text, serif !important;
+}
+li a {
+    color: #b3ecff;
+    text-decoration: none;
+    padding: 0 30px;
+}
+header li a:hover {
+    background-color: #66d9ff;
+}
+.logo {
+    font-family: Great Vibes, sans-serif;
+    font-size: 6em;
+    color: hsl(0, 100%, 90%);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.background {
+    width: 90%;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+h3 {
+    text-align: center;
+    font-family: crimson text, serif !important;
+    padding: 10px;
+}
+.short-info p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0 0 15px 0;
+    
+}
+
+.img-center {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#align-right {
+    text-align: right;
+} 
+.social_network {
+    text-align: center;
+}
+
+.sc-img {
+    height: 52px;
+    width: 52px;
+    display: inline-block;
+    margin: auto;
+}
+
+.grid {
+display: grid;
+grid-template-columns:50% 50%;
+text-align:center;
+}
+.grid-itm {
+padding:5px;
+color: #000;
+}
+
+.blog-img {
+    height: 310px;
+    width: 420px;
+    display:inline-block;
+    margin:auto;
+}
+
+button {
+    background-color: white; 
+    color: #000; 
+    border: 2px solid #66d9ff;
+}
+button:hover {
+    background-color: #66d9ff;
+}
+
+.contacts {
+ text-align: center;   
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width:1199px) {
+    li a {
+    padding: 0;
+}
+.blog-img {
+    height: 60%;
+    width: 60%;
+}
+.short-info p {
+    margin:0 25px;
+}
+.short-info h3 {
+    margin: 0 15px;
+}
+form {
+    margin: 0 25px;
+}
+p {
+    margin: 0 25px;
+}
+}
+@media screen and (max-width:414px) {
+  .grid {
+display: grid;
+grid-template-columns:100%;
+text-align:center;
+}
+.logo {
+    font-size: 3em;
+}
+p {
+    margin: 0 25px; 
+}
+}
