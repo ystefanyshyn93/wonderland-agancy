@@ -1,0 +1,34 @@
+h1 {
+    font-family: crimson text;
+    font-size: 4em;
+    color: hsl(0, 100%, 90%);
+    text-align: center;
+    margin: 0 auto;
+}
+.grid-team {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 20% 20% 10%;
+    text-align:center;
+    padding: 0;
+    margin: 0;
+   
+}
+.grid-item-team {
+    padding: 10px;
+    border-top: 0.5px solid #ccccb3;
+}
+.profession {
+    text-align:center;
+    font-style: !important;
+}
+.grid-item-team img {
+    width: 100%;
+}
+
+@media screen and (max-width:414px) {
+  .grid-team {
+    display: grid;
+    grid-template-columns:100%;
+    text-align:center;
+}
