@@ -21,7 +21,7 @@ header ul {
 
 header ul li {
     flex-grow: 1;
-    min-height: 25px;
+    min-height: 30px;
     font-family: arial, sans-serif;
     font-size: 25px;
     background-color: #fff;
