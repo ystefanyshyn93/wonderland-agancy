@@ -1,0 +1,43 @@
+html {
+    margin:0 auto;
+}
+body {
+    max-width:1200px;
+    margin:0 auto;
+    font-family: crimson text, serif;
+    font-size: 0,875em;
+    line-height: 1,6em;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-areas: "a b"
+                       "c c"
+                       "e d";
+  grid-template-rows: 45% 10% 45%;
+  grid-template-columns: 50% 50%;
+}
+
+#wrapper > .a {
+    grid-area: a;
+}
+#wrapper > .b {
+    grid-area: b;
+}
+#wrapper > .c {
+    grid-area: c;
+}
+#wrapper > .d {
+    grid-area: d;
+}
+#wrapper > .e {
+    grid-area: e;
+}
+
+h1 {
+    font-family: Great Vibes, sans-serif;
+    font-size: 6em;
+    color: hsl(0, 100%, 90%);
+    text-align: center;
+    margin: 0 auto;
+}
