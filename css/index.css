@@ -23,14 +23,15 @@ header ul li {
     flex-grow: 1;
     min-height: 25px;
     font-family: arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #fff;
     font-family: crimson text, serif !important;
 }
 li a {
-    color: #b3ecff;
+    color: #4da6ff;
     text-decoration: none;
     padding: 0 30px;
+    
 }
 header li a:hover {
     background-color: #66d9ff;

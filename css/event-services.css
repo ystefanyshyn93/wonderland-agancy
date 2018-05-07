@@ -1,13 +1,3 @@
-html {
-    margin:0 auto;
-}
-body {
-    max-width:1200px;
-    margin:0 auto;
-    font-family: crimson text, serif;
-    font-size: 0,875em;
-    line-height: 1,6em;
-}
 
 #wrapper {
   display: grid;
@@ -16,10 +6,12 @@ body {
                        "e d";
   grid-template-rows: 45% 10% 45%;
   grid-template-columns: 50% 50%;
+  border: #ffcce6;
 }
 
 #wrapper > .a {
     grid-area: a;
+    
 }
 #wrapper > .b {
     grid-area: b;
@@ -34,6 +26,10 @@ body {
     grid-area: e;
 }
 
+.a, .d {
+    text-align:center;
+}
+
 h1 {
     font-family: Great Vibes, sans-serif;
     font-size: 6em;
@@ -41,3 +37,26 @@ h1 {
     text-align: center;
     margin: 0 auto;
 }
+
+h2 {
+   text-align:center; 
+}
+
+h3 {
+    margin: 0;
+}
+
+ h2, h3 {
+    color: #80aaff;
+}
+ul {
+    margin: 5px;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0 0 15px 0;
+    
+}
+
