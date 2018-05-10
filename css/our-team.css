@@ -24,8 +24,13 @@ h1 {
 }
 .grid-item-team img {
     width: 100%;
+    display: block;
+    margin: auto;
 }
 
+.grid-item-team p {
+    font-size: 16px;
+}
 @media screen and (max-width:414px) {
   .grid-team {
     display: grid;
@@ -33,3 +38,4 @@ h1 {
     text-align:center;
 }
 }
+

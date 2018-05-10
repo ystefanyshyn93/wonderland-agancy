@@ -1,12 +1,13 @@
 html {
     margin:0 auto;
+    /*background-color: #e6f2ff;*/
 }
 body {
     max-width:1200px;
     margin:0 auto;
     font-family: crimson text, serif;
-    font-size: 0,875em;
-    line-height: 1,6em;
+    font-size: 15px;
+    
 }
 
 header nav {
@@ -61,11 +62,12 @@ h3 {
     text-align: justify;
     padding: 0 0 15px 0;
     
+    
 }
 
 .img-center {
     height: 60%;
-    width: 60%;
+    
     display: block;
     margin: auto;
 }
@@ -111,6 +113,10 @@ button:hover {
 
 .contacts {
  text-align: center;   
+}
+
+footer {
+    color: #4da6ff;
 }
 
 footer p {
