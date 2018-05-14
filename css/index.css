@@ -38,59 +38,38 @@ header li a:hover {
     background-color: #66d9ff;
     color: #fff;
 }
+
 .logo {
     font-family: Great Vibes, sans-serif;
     font-size: 6em;
     color: hsl(0, 100%, 90%);
     text-align: center;
     margin: 0 auto;
+    font-weight: 900;
 }
-
-.background {
-    width: 90%;
-    margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-h3 {
-    text-align: center;
-    font-family: crimson text, serif !important;
-    padding: 10px;
-}
-/*.short-info p {
-    text-indent: 30px;
-    text-align: justify;
-    padding: 0 0 15px 0;
-    
-    
-}*/
 
 .grid-section {
     display: grid;
-    grid-template-columns: repeat(2, [col] 1fr ) ;
-    grid-template-rows: repeat(3, [row] auto  );
-    background-color: #fff;
-    color: #444;
-}
-
-.img-center {
-    height: 60%;
+    grid-template-columns: repeat(3, [col] 1fr ) ;
+    grid-column-gap: 50px;
+    padding: 20px 50px;
     
-    display: block;
-    margin: auto;
 }
-#align-right {
-    text-align: right;
-} 
-.social_network {
+.short-info h5 {
     text-align: center;
+    color: #4da6ff;
+    font-weight: 900;
 }
 
-.sc-img {
-    height: 52px;
-    width: 52px;
-    display: inline-block;
-    margin: auto;
+.short-info p {
+    text-indent: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.round-img {
+    border-radius: 2000px; 
+    box-shadow: 0 0 7px #666;
 }
 
 .grid {
@@ -108,6 +87,19 @@ h3 {
     width: 420px;
     display:inline-block;
     margin:auto;
+    box-shadow: 0 0 7px #666;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 button {
@@ -119,49 +111,18 @@ button:hover {
     background-color: #66d9ff;
 }
 
-.contacts {
- text-align: center;   
+.jumbotrone {
+    margin-bottom: 20px;
 }
 
 footer {
     color: #4da6ff;
+    font-weight: 600;
+    margin: 25px;
 }
 
 footer p {
     text-align: center;
+    font-size: 20px;
 }
 
-@media screen and (max-width:1199px) {
-    li a {
-    padding: 0;
-}
-.blog-img {
-    height: 60%;
-    width: 60%;
-}
-.short-info p {
-    margin:0 25px;
-}
-.short-info h3 {
-    margin: 0 15px;
-}
-form {
-    margin: 0 25px;
-}
-p {
-    margin: 0 25px;
-}
-}
-@media screen and (max-width:414px) {
-  .grid {
-    display: grid;
-    grid-template-columns:100%;
-    text-align:center;
-}
-.logo {
-    font-size: 3em;
-}
-p {
-    margin: 0 25px; 
-}
-}

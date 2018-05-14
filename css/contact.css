@@ -1,17 +1,6 @@
 html {
   max-width: 1200px;
 }
-.main-picture {
-    width: 100%;
-    /*background-image: url("../images/contact/home.jpg");
-    background-size: cover;*/
-    background-color: #fff0ff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #99bbff;
-    font-size: 1.7em;
-}
 
 #wrapper {
   display: grid;
@@ -23,11 +12,6 @@ html {
   margin: 30px 0;
 }
 
-/*.grid-columns { 
-  background-color: #fff0ff;
-  padding: 20px;
-}*/
-
 .grid-image {
   width:90%;
   margin: auto;
@@ -37,12 +21,18 @@ html {
 
 h2 {
   text-align: center;
-  font-size: xx-large;
+  font-size: 50px;
 }
 
+.contact  {
+  font-size: 20px;
+  text-indent: unset;
+  text-align: center;
+}
 #wrapper p {
-  font-size: 18px;
+  font-size: 20px;
   text-indent: 30px;
+  margin-bottom: 15px;
 }
 
 .contact-form {
@@ -107,3 +97,14 @@ input {
   outline: none;
 }
 
+.social-network {
+  display: block;
+  text-align: center;
+}
+
+.sc-img {
+    height: 52px;
+    width: 52px;
+    display: inline-block;
+    margin: auto;
+}
