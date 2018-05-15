@@ -33,6 +33,9 @@
     margin: 15px;
 }
 
+.container {
+    display: none;
+}
 
 h1 {
     font-family: Great Vibes, sans-serif;
@@ -64,9 +67,14 @@ p {
 }
 
 @media screen and (max-width:414px) {
-  #wrapper {
-    display: grid;
-    grid-template-columns:100%;
-    text-align:center;
-}
+ 
+    
+    
+     nav {
+        display: none;
+    }
+    
+   .container {
+       display: block;
+   } 
 }

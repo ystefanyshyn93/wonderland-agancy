@@ -39,6 +39,10 @@ header li a:hover {
     color: #fff;
 }
 
+.container {
+    display: none;
+}
+
 .logo {
     font-family: Great Vibes, sans-serif;
     font-size: 6em;
@@ -65,11 +69,13 @@ header li a:hover {
     text-indent: 20px;
     font-weight: 600;
     font-size: 17px;
+    margin-bottom: 10px;
 }
 
 .round-img {
     border-radius: 2000px; 
     box-shadow: 0 0 7px #666;
+    width: 100%;
 }
 
 .grid {
@@ -126,3 +132,66 @@ footer p {
     font-size: 20px;
 }
 
+@media screen and (max-width:1199px) {
+    li a {
+    padding: 0;
+}
+
+.grid-section {
+    margin: 10px;
+    grid-column-gap: 10px;
+}
+.blog-img {
+    height: 60%;
+    width: 60%;
+}
+.short-info p {
+    margin:0 25px;
+}
+.short-info h3 {
+    margin: 0 15px;
+}
+
+p {
+    margin: 0 25px;
+}
+}
+@media screen and (max-width:414px) {
+    
+    nav {
+        display: none;
+    }
+    
+   .container {
+       display: block;
+   } 
+    
+    .bg-light {
+        background-color: none;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns:100%;
+        text-align:center;
+    }
+
+    .grid-section {
+        grid-template-columns: 100% ;
+        margin: 10px;
+    }
+
+    .round-img {
+        width: 70%;
+        margin: 5% 20%;
+    }
+
+    .logo {
+        font-size: 3em;
+    }
+    p {
+        margin: 0 25px; 
+    }
+
+
+}

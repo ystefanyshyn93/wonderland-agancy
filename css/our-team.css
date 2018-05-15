@@ -5,6 +5,11 @@ h1 {
     text-align: center;
     margin: 0 auto;
 }
+
+.container {
+    display: none;
+}
+
 .grid-team {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -17,6 +22,10 @@ h1 {
 .grid-item-team {
     padding: 10px;
     border-top: 0.5px solid #ccccb3;
+}
+
+.grid-item-team:nth-of-type(even) {
+    background: none;
 }
 .profession {
     text-align:center;
@@ -31,11 +40,58 @@ h1 {
 .grid-item-team p {
     font-size: 16px;
 }
+
+@media screen and (max-width:1199px) {
+    li a {
+    padding: 0;
+}
+
 @media screen and (max-width:414px) {
   .grid-team {
     display: grid;
     grid-template-columns:100%;
     text-align:center;
-}
+    }
+    
+    nav {
+        display: none;
+    }
+    
+   .container {
+       display: block;
+   } 
+    
+    .grid-item-team:nth-of-type(1) {
+        order: 1;
+    }
+    
+    .grid-item-team:nth-of-type(2) {
+        order: 2;
+    }
+    
+    .grid-item-team:nth-of-type(3) {
+        order: 4;
+    }
+    
+    .grid-item-team:nth-of-type(4) {
+        order: 3;
+    }
+    
+    .grid-item-team:nth-of-type(5) {
+        order: 5;
+    }
+    
+    .grid-item-team:nth-of-type(6) {
+        order: 6;
+    }
+    
+    .grid-item-team:nth-of-type(7) {
+        order: 8;
+    }
+    
+    .grid-item-team:nth-of-type(8) {
+        order: 7;
+    }
+    
 }
 
