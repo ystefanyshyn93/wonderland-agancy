@@ -93,5 +93,8 @@ h1 {
         order: 7;
     }
     
+    .grid-team p {
+        text-align: justify;
+    }
 }
 

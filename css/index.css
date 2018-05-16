@@ -180,6 +180,11 @@ p {
         grid-template-columns: 100% ;
         margin: 10px;
     }
+    
+    section .short-info, .grid-section {
+        padding: 5px;
+        text-align: justify;
+    }
 
     .round-img {
         width: 70%;
@@ -192,6 +197,6 @@ p {
     p {
         margin: 0 25px; 
     }
-
+    
 
 }

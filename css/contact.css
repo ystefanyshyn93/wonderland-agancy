@@ -42,8 +42,7 @@ h2 {
 } 
 
 .contact-form {
-  width: 472px;
-  height: 363px;
+  width: 100%;
   box-shadow: -50px -50px #4da6ff;
   border: 1px solid #4da6ff;
 }
@@ -135,8 +134,51 @@ input {
    } 
    
    #wrapper {
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-     
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
    }
+   
+  .contact-form {
+    box-shadow: none;
+  }
+  
+  .grid-image {
+     box-shadow: none;
+  }
+  
+  .grid-columns:nth-of-type(1) {
+    order: 1;
+  }
+  
+  .grid-columns:nth-of-type(2) {
+    order: 2;
+  }
+  
+  .grid-columns:nth-of-type(3) {
+    order: 4;
+  }
+  
+  .grid-columns:nth-of-type(4) {
+    order: 3;
+  }
+  
+  .grid-columns {
+    margin-bottom: 15px;
+  }
+  
+  .social-network {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  nav {
+        display: none;
+    }
+    
+    h2 {
+      margin: 10px;
+    }
 }
