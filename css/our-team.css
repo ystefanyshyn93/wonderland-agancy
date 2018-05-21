@@ -29,8 +29,9 @@ h1 {
 }
 .profession {
     text-align:center;
-    font-style: !important;
+    font-weight: 500;
 }
+
 .grid-item-team img {
     width: 100%;
     display: block;
@@ -44,13 +45,15 @@ h1 {
 @media screen and (max-width:1199px) {
     li a {
     padding: 0;
+    }
 }
 
 @media screen and (max-width:414px) {
+    
   .grid-team {
-    display: grid;
-    grid-template-columns:100%;
-    text-align:center;
+      display: grid;
+      grid-template-columns:100%;
+      text-align:center;
     }
     
     nav {

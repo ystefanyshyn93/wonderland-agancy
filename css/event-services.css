@@ -68,9 +68,9 @@ p {
 
 @media screen and (max-width:414px) {
  
-body {
-    margin: 15px;
-}    
+    body {
+        margin: 15px;
+    }    
     
      nav {
         display: none;
@@ -82,7 +82,7 @@ body {
    
    #wrapper {
        display: flex;
-    flex-wrap: wrap;
+       flex-wrap: wrap;
    }
    
    .a img {
@@ -95,4 +95,5 @@ body {
    
    h1 {
     font-size: 3em;
+    }
 }

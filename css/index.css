@@ -140,22 +140,26 @@ footer p {
 .grid-section {
     margin: 10px;
     grid-column-gap: 10px;
-}
+    }
+    
 .blog-img {
     height: 60%;
     width: 60%;
-}
+    }
+    
 .short-info p {
     margin:0 25px;
-}
+    }
+    
 .short-info h3 {
     margin: 0 15px;
-}
+    }
 
 p {
     margin: 0 25px;
+    }
 }
-}
+
 @media screen and (max-width:414px) {
     
     nav {
@@ -194,9 +198,8 @@ p {
     .logo {
         font-size: 3em;
     }
+    
     p {
         margin: 0 25px; 
     }
-    
-
 }
